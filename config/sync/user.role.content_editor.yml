@@ -3,17 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.article
-    - node.type.page
-    - taxonomy.vocabulary.tags
+    - node.type.news
   module:
     - comment
     - contextual
     - file
     - node
-    - path
     - system
-    - taxonomy
     - toolbar
 _core:
   default_config_hash: e_wG1u7SrGaJbY2-Szgbgl-c8T3kdirU3uTNq2c_QJQ
@@ -25,23 +21,12 @@ permissions:
   - 'access administration pages'
   - 'access content overview'
   - 'access contextual links'
-  - 'access files overview'
   - 'access toolbar'
-  - 'administer url aliases'
-  - 'create article content'
-  - 'create page content'
-  - 'create terms in tags'
-  - 'create url aliases'
-  - 'delete article revisions'
-  - 'delete own article content'
+  - 'create news content'
   - 'delete own files'
-  - 'delete own page content'
-  - 'delete page revisions'
-  - 'edit own article content'
+  - 'delete own news content'
   - 'edit own comments'
-  - 'edit own page content'
-  - 'edit terms in tags'
-  - 'revert all revisions'
+  - 'edit own news content'
   - 'view all revisions'
   - 'view own unpublished content'
   - 'view the administration theme'
